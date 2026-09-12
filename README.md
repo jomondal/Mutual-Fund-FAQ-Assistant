@@ -4,6 +4,20 @@ A **facts-only** Retrieval-Augmented Generation (RAG) assistant for HDFC mutual 
 
 > **Facts-only. No investment advice.**
 
+## Description
+
+The **Mutual Fund FAQ Knowledge Assistant** is a phase-wise RAG application built for **HDFC Asset Management Company Limited**. It helps users get quick, factual answers about five selected HDFC schemes — expense ratios, exit loads, lock-in periods, fund managers, risk classifications, and investment minimums.
+
+The system collects data from **official AMC, AMFI, and SEBI sources**, processes it into searchable chunks, retrieves relevant context, and generates concise answers via **Groq LLM** — with strict refusal handling for advisory, performance, PII, and out-of-scope queries.
+
+| Aspect | Detail |
+|--------|--------|
+| **Scope** | HDFC AMC — 5 schemes (Mid Cap, Small Cap, Large Cap, ELSS, Gold ETF FoF) |
+| **Stack** | Python, FastAPI, FAISS, sentence-transformers, Groq LLM |
+| **UI** | Three-column responsive web interface |
+| **Deployment** | Vercel (free tier) — [Live demo](https://hdfc-faq-assistant.vercel.app) |
+| **Compliance** | Facts-only; no buy/sell/hold advice; verify AI responses with cited sources |
+
 ## Live Demo
 
 | Resource | Link |
