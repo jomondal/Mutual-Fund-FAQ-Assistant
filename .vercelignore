@@ -1,0 +1,13 @@
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.git/
+.vscode/
+.idea/
+data/raw/
+data/processed/
+.env
+.env.local
+*.log

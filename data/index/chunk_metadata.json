@@ -1,0 +1,708 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "dimension": 384,
+  "chunk_count": 58,
+  "chunks": [
+    {
+      "chunk_id": "seed_0_investment_objective_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Investment Objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of mid-cap companies.",
+      "doc_id": "seed_0_investment_objective",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "investment_objective",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_benchmark_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Benchmark: NIFTY Midcap 150 Total Return Index",
+      "doc_id": "seed_0_benchmark",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "benchmark",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_riskometer_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Riskometer: Very High",
+      "doc_id": "seed_0_riskometer",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "riskometer",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_exit_load_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Exit Load: 1% if redeemed/switched out within 1 year from date of allotment; Nil thereafter",
+      "doc_id": "seed_0_exit_load",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "exit_load",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_minimum_sip_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Minimum Sip: Rs. 100",
+      "doc_id": "seed_0_minimum_sip",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_sip",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_minimum_lumpsum_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Minimum Lumpsum: Rs. 100",
+      "doc_id": "seed_0_minimum_lumpsum",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_lumpsum",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_expense_ratio_direct_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Expense Ratio Direct: 0.75% (as per latest TER disclosure on HDFC AMC website)",
+      "doc_id": "seed_0_expense_ratio_direct",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "expense_ratio_direct",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_fund_manager_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Fund Manager: Chirag Setalvad",
+      "doc_id": "seed_0_fund_manager",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "fund_manager",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_0_lock_in_period_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund Direct Plan Growth. Lock In Period: Nil",
+      "doc_id": "seed_0_lock_in_period",
+      "scheme": "HDFC Mid Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "lock_in_period",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_investment_objective_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Investment Objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of small-cap companies.",
+      "doc_id": "seed_1_investment_objective",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "investment_objective",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_benchmark_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Benchmark: NIFTY Smallcap 250 Total Return Index",
+      "doc_id": "seed_1_benchmark",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "benchmark",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_riskometer_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Riskometer: Very High",
+      "doc_id": "seed_1_riskometer",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "riskometer",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_exit_load_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Exit Load: 1% if redeemed/switched out within 1 year from date of allotment; Nil thereafter",
+      "doc_id": "seed_1_exit_load",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "exit_load",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_minimum_sip_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Minimum Sip: Rs. 100",
+      "doc_id": "seed_1_minimum_sip",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_sip",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_minimum_lumpsum_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Minimum Lumpsum: Rs. 100",
+      "doc_id": "seed_1_minimum_lumpsum",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_lumpsum",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_expense_ratio_direct_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Expense Ratio Direct: 0.68% (as per latest TER disclosure on HDFC AMC website)",
+      "doc_id": "seed_1_expense_ratio_direct",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "expense_ratio_direct",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_fund_manager_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Fund Manager: Chirag Setalvad",
+      "doc_id": "seed_1_fund_manager",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "fund_manager",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_1_lock_in_period_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund Direct Plan Growth. Lock In Period: Nil",
+      "doc_id": "seed_1_lock_in_period",
+      "scheme": "HDFC Small Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "lock_in_period",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_investment_objective_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Investment Objective: The scheme seeks to generate returns by investing in units of HDFC Gold Exchange Traded Fund (ETF), which invests in physical gold.",
+      "doc_id": "seed_2_investment_objective",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "investment_objective",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_benchmark_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Benchmark: Domestic Price of Gold",
+      "doc_id": "seed_2_benchmark",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "benchmark",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_riskometer_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Riskometer: Moderately High",
+      "doc_id": "seed_2_riskometer",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "riskometer",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_exit_load_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Exit Load: 1% if redeemed/switched out within 15 days from date of allotment; Nil thereafter",
+      "doc_id": "seed_2_exit_load",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "exit_load",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_minimum_sip_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Minimum Sip: Rs. 100",
+      "doc_id": "seed_2_minimum_sip",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_sip",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_minimum_lumpsum_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Minimum Lumpsum: Rs. 100",
+      "doc_id": "seed_2_minimum_lumpsum",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_lumpsum",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_expense_ratio_direct_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Expense Ratio Direct: 0.18% (as per latest TER disclosure on HDFC AMC website)",
+      "doc_id": "seed_2_expense_ratio_direct",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "expense_ratio_direct",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_fund_manager_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Fund Manager: Krishan Daga",
+      "doc_id": "seed_2_fund_manager",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "fund_manager",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_2_lock_in_period_chunk_0",
+      "text": "Scheme: HDFC Gold ETF Fund of Fund Direct Plan Growth. Lock In Period: Nil",
+      "doc_id": "seed_2_lock_in_period",
+      "scheme": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-of-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "lock_in_period",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_investment_objective_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Investment Objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of large-cap companies.",
+      "doc_id": "seed_3_investment_objective",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "investment_objective",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_benchmark_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Benchmark: NIFTY 100 Total Return Index",
+      "doc_id": "seed_3_benchmark",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "benchmark",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_riskometer_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Riskometer: Very High",
+      "doc_id": "seed_3_riskometer",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "riskometer",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_exit_load_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Exit Load: 1% if redeemed/switched out within 1 year from date of allotment; Nil thereafter",
+      "doc_id": "seed_3_exit_load",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "exit_load",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_minimum_sip_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Minimum Sip: Rs. 100",
+      "doc_id": "seed_3_minimum_sip",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_sip",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_minimum_lumpsum_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Minimum Lumpsum: Rs. 100",
+      "doc_id": "seed_3_minimum_lumpsum",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_lumpsum",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_expense_ratio_direct_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Expense Ratio Direct: 0.97% (as per latest TER disclosure on HDFC AMC website)",
+      "doc_id": "seed_3_expense_ratio_direct",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "expense_ratio_direct",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_fund_manager_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Fund Manager: Roshi Jain",
+      "doc_id": "seed_3_fund_manager",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "fund_manager",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_3_lock_in_period_chunk_0",
+      "text": "Scheme: HDFC Large Cap Fund Direct Plan Growth. Lock In Period: Nil",
+      "doc_id": "seed_3_lock_in_period",
+      "scheme": "HDFC Large Cap Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "lock_in_period",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_investment_objective_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Investment Objective: The scheme seeks to generate long-term capital appreciation from a diversified portfolio of predominantly equity and equity related securities, with tax benefit under Section 80C.",
+      "doc_id": "seed_4_investment_objective",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "investment_objective",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_benchmark_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Benchmark: NIFTY 500 Total Return Index",
+      "doc_id": "seed_4_benchmark",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "benchmark",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_riskometer_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Riskometer: Very High",
+      "doc_id": "seed_4_riskometer",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "riskometer",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_exit_load_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Exit Load: Nil",
+      "doc_id": "seed_4_exit_load",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "exit_load",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_minimum_sip_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Minimum Sip: Rs. 500",
+      "doc_id": "seed_4_minimum_sip",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_sip",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_minimum_lumpsum_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Minimum Lumpsum: Rs. 500",
+      "doc_id": "seed_4_minimum_lumpsum",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "minimum_lumpsum",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_expense_ratio_direct_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Expense Ratio Direct: 0.97% (as per latest TER disclosure on HDFC AMC website)",
+      "doc_id": "seed_4_expense_ratio_direct",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "expense_ratio_direct",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_fund_manager_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Fund Manager: Roshi Jain",
+      "doc_id": "seed_4_fund_manager",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "fund_manager",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_4_lock_in_period_chunk_0",
+      "text": "Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth. Lock In Period: 3 years from date of allotment (mandatory lock-in under Section 80C)",
+      "doc_id": "seed_4_lock_in_period",
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver/direct",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "lock_in_period",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_statement_download_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Statement Download: Investors can download account statements, capital gains statements, and transaction reports via HDFC MF Online Services at https://www.hdfcfund.com/investor-services or through the CAMS/KFintech investor portal linked from the AMC website.",
+      "doc_id": "seed_5_statement_download",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "statement_download",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_registrar_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Registrar: Computer Age Management Services (CAMS) and KFin Technologies",
+      "doc_id": "seed_5_registrar",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "registrar",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_regulatory_body_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Regulatory Body: Registered with SEBI; member of AMFI",
+      "doc_id": "seed_5_regulatory_body",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "regulatory_body",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_ter_disclosure_url_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Ter Disclosure Url: https://www.hdfcfund.com/statutory-disclosure/total-expense-ratio-of-mutual-fund-schemes/reports",
+      "doc_id": "seed_5_ter_disclosure_url",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "ter_disclosure_url",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_factsheet_url_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Factsheet Url: https://www.hdfcfund.com/investor-services/factsheets",
+      "doc_id": "seed_5_factsheet_url",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "factsheet_url",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_sai_url_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Sai Url: https://www.hdfcfund.com/statutory-disclosure/scheme-information-document",
+      "doc_id": "seed_5_sai_url",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "sai_url",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_sebi_investor_education_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Sebi Investor Education: https://investor.sebi.gov.in/",
+      "doc_id": "seed_5_sebi_investor_education",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "sebi_investor_education",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "seed_5_amfi_investor_education_chunk_0",
+      "text": "Scheme: General - HDFC AMC. Amfi Investor Education: https://www.amfiindia.com/investor-corner/knowledge-center.html",
+      "doc_id": "seed_5_amfi_investor_education",
+      "scheme": "General - HDFC AMC",
+      "source_url": "https://www.hdfcfund.com",
+      "source_type": "hdfc_amc",
+      "metadata": {
+        "fact_type": "amfi_investor_education",
+        "verified": true
+      }
+    },
+    {
+      "chunk_id": "amfi_0_chunk_0",
+      "text": "Scheme: HDFC Focused Fund. NAV: Rs. Direct Plan. NAV Date: Growth Option. AMC: HDFC Mutual Fund. AMFI Scheme Code: 118950.",
+      "doc_id": "amfi_0",
+      "scheme": "HDFC Focused Fund",
+      "source_url": "https://www.amfiindia.com/spages/NAVAll.txt",
+      "source_type": "amfi_nav",
+      "metadata": {
+        "nav": "Direct Plan",
+        "nav_date": "Growth Option",
+        "amfi_code": "118950"
+      }
+    },
+    {
+      "chunk_id": "amfi_1_chunk_0",
+      "text": "Scheme: HDFC Mid Cap Fund. NAV: Rs. Direct Plan. NAV Date: Growth Option. AMC: HDFC Mutual Fund. AMFI Scheme Code: 118989.",
+      "doc_id": "amfi_1",
+      "scheme": "HDFC Mid Cap Fund",
+      "source_url": "https://www.amfiindia.com/spages/NAVAll.txt",
+      "source_type": "amfi_nav",
+      "metadata": {
+        "nav": "Direct Plan",
+        "nav_date": "Growth Option",
+        "amfi_code": "118989"
+      }
+    },
+    {
+      "chunk_id": "amfi_2_chunk_0",
+      "text": "Scheme: HDFC Small Cap Fund. NAV: Rs. Direct Plan. NAV Date: Growth Option. AMC: HDFC Mutual Fund. AMFI Scheme Code: 130503.",
+      "doc_id": "amfi_2",
+      "scheme": "HDFC Small Cap Fund",
+      "source_url": "https://www.amfiindia.com/spages/NAVAll.txt",
+      "source_type": "amfi_nav",
+      "metadata": {
+        "nav": "Direct Plan",
+        "nav_date": "Growth Option",
+        "amfi_code": "130503"
+      }
+    },
+    {
+      "chunk_id": "amfi_3_chunk_0",
+      "text": "Scheme: Motilal Oswal Nasdaq 100 Fund of Fund. NAV: Rs. . NAV Date: . AMC: Motilal Oswal Mutual Fund. AMFI Scheme Code: 145552.",
+      "doc_id": "amfi_3",
+      "scheme": "Motilal Oswal Nasdaq 100 Fund of Fund",
+      "source_url": "https://www.amfiindia.com/spages/NAVAll.txt",
+      "source_type": "amfi_nav",
+      "metadata": {
+        "nav": "",
+        "nav_date": "",
+        "amfi_code": "145552"
+      }
+    },
+    {
+      "chunk_id": "amfi_4_chunk_0",
+      "text": "Scheme: HDFC Nifty 50 Index Fund. NAV: Rs. Direct Plan. NAV Date: Growth Option. AMC: HDFC Mutual Fund. AMFI Scheme Code: 119063.",
+      "doc_id": "amfi_4",
+      "scheme": "HDFC Nifty 50 Index Fund",
+      "source_url": "https://www.amfiindia.com/spages/NAVAll.txt",
+      "source_type": "amfi_nav",
+      "metadata": {
+        "nav": "Direct Plan",
+        "nav_date": "Growth Option",
+        "amfi_code": "119063"
+      }
+    }
+  ]
+}

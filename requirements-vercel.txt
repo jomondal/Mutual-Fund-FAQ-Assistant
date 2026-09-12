@@ -1,0 +1,8 @@
+# Vercel serverless dependencies (lightweight — no ML models)
+fastapi>=0.109.0
+python-dotenv>=1.0.0
+groq>=0.4.0
+httpx>=0.26.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-multipart>=0.0.6
