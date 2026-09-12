@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 from config.settings import INDEX_DIR, settings
-from phase_3_embedding_indexing.vector_store import RetrievalResult
+from phase_3_embedding_indexing.retrieval_types import RetrievalResult
 
 
 def _tokenize(text: str) -> list[str]:

@@ -1,7 +1,7 @@
 """Semantic retrieval for RAG pipeline."""
 
 from config.settings import settings
-from phase_3_embedding_indexing.vector_store import RetrievalResult, VectorStore
+from phase_3_embedding_indexing.retrieval_types import RetrievalResult
 
 
 def _default_store():
@@ -9,6 +9,9 @@ def _default_store():
         from phase_3_embedding_indexing.keyword_store import KeywordStore
 
         return KeywordStore()
+
+    from phase_3_embedding_indexing.vector_store import VectorStore
+
     return VectorStore()
 
 

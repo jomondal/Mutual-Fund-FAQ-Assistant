@@ -3,7 +3,6 @@ FAISS vector store for semantic retrieval.
 """
 
 import json
-from dataclasses import dataclass
 from pathlib import Path
 
 import faiss
@@ -11,19 +10,7 @@ import numpy as np
 
 from config.settings import INDEX_DIR, settings
 from phase_3_embedding_indexing.embedder import Embedder
-
-
-@dataclass
-class RetrievalResult:
-    """A retrieved chunk with similarity score."""
-
-    chunk_id: str
-    text: str
-    scheme: str
-    source_url: str
-    source_type: str
-    score: float
-    metadata: dict
+from phase_3_embedding_indexing.retrieval_types import RetrievalResult
 
 
 class VectorStore:
