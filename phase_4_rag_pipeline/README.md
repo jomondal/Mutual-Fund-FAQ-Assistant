@@ -9,18 +9,18 @@ User Query
     │
     ▼
 ┌─────────────────┐
-│ Refusal Handler │──▶ Advisory / Performance / PII → Refusal Response
+│ Refusal Handler │──▶ Advisory / Performance / PII / Out-of-scope → Refusal
 └────────┬────────┘
          │ (Factual)
          ▼
 ┌─────────────────┐
-│   Retriever     │──▶ Top-K chunks from FAISS
+│   Retriever     │──▶ Top-K chunks (FAISS local / keyword on Vercel)
 └────────┬────────┘
          │
          ▼
 ┌─────────────────┐
 │  Groq LLM       │──▶ Facts-only answer (max 3 sentences)
-│  (llama-3.3)    │
+│  gpt-oss-120b   │
 └────────┬────────┘
          │
          ▼
@@ -31,21 +31,26 @@ User Query
 
 | Rule | Enforcement |
 |------|-------------|
-| Max 3 sentences | System prompt + max_tokens=300 |
+| Max 3 sentences | System prompt + max_tokens |
 | Exactly 1 source link | Prompt instruction + retriever metadata |
 | Footer with date | Appended programmatically |
 | No investment advice | Refusal handler for advisory patterns |
 | No performance calcs | Refusal handler for performance patterns |
+| Clean answer body | Strips duplicate disclaimers, source labels, inline URLs |
 
 ## Refusal Categories
 
-- **Advisory**: "Should I invest?", "Which fund is better?"
-- **Performance**: CAGR, returns, comparisons
-- **PII**: PAN, Aadhaar, folio numbers, OTPs
+| Category | Example |
+|----------|---------|
+| Advisory | "Should I invest?", "Which fund is better?" |
+| Performance | CAGR, returns, comparisons |
+| PII | PAN, Aadhaar, folio numbers, OTPs |
+| Out of scope | Unrelated finance/general knowledge questions |
 
 ## Configuration
 
 Set in `.env`:
+
 ```
 GROQ_API_KEY=your_key
 GROQ_MODEL=openai/gpt-oss-120b

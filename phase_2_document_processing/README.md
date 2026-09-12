@@ -2,6 +2,8 @@
 
 Transforms raw JSON corpus into searchable text chunks.
 
+**Project:** [Mutual Fund FAQ Assistant](../README.md) · **Live app:** [hdfc-faq-assistant.vercel.app](https://hdfc-faq-assistant.vercel.app)
+
 ## Pipeline
 
 ```

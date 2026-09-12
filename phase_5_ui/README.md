@@ -1,6 +1,8 @@
 # Phase 5: User Interface
 
-Minimal three-column web interface matching the reference design.
+Three-column web interface for the Mutual Fund FAQ Assistant.
+
+**Live demo:** [https://hdfc-faq-assistant.vercel.app](https://hdfc-faq-assistant.vercel.app)
 
 ## Layout
 
@@ -8,21 +10,24 @@ Minimal three-column web interface matching the reference design.
 ┌──────────────┬──────────────────────────┬──────────────┐
 │  Left Panel  │     Main Content         │  Right Panel │
 │              │                          │              │
-│  AMC Logo    │  Knowledge Engine Hero   │  New Session │
-│  Search      │  6 Suggestion Cards      │  Assurance   │
+│  Home + AMC  │  FAQ Knowledge Assistant │  New Session │
+│  Search      │  Hero + Suggestions      │  Assurance   │
 │  Category    │  Chat Messages           │  Recent      │
-│  Tabs        │  Query Input Bar         │  Regulatory  │
-│  Scheme List │  Disclaimer Footer       │  Footer      │
+│  Tabs        │  Query Input Bar         │  Inquiries   │
+│  Scheme List │  Disclaimer Footer       │              │
 └──────────────┴──────────────────────────┴──────────────┘
 ```
 
 ## Tech Stack
 
-- **Backend**: FastAPI
-- **Frontend**: HTML + CSS + Vanilla JS
-- **Styling**: Custom CSS (Inter font, navy/white palette)
+| Layer | Technology |
+|-------|------------|
+| Backend | FastAPI |
+| Frontend | HTML + CSS + Vanilla JS |
+| Font | Inter |
+| Styling | Custom CSS (navy/white palette, responsive) |
 
-## Run
+## Run Locally
 
 ```bash
 python -m phase_5_ui.app
@@ -40,8 +45,19 @@ Open http://127.0.0.1:8000
 | GET | `/api/recent` | Recent query history |
 | GET | `/api/health` | Health check |
 
+## UI Features
+
+- Scheme filter by category (All / Equity / Index)
+- Multi-select scheme scope for queries
+- Suggestion cards with sample factual questions
+- Refusal handling with classification labels in recent history
+- Facts-only disclaimer in input bar and footer
+- Responsive layout with mobile slide-out sidebars
+
 ## Disclaimer
 
-Displayed prominently in the UI:
+Displayed in the UI:
 
 > Facts-only. No investment advice.
+
+Additional footer: AI generated responses — verify with cited sources.
